@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="base-starter-flow-quarkus" />
+        <module name="ptc-api" />
+        <module name="ptc-core" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="base-starter-flow-quarkus" target="11" />
+      <module name="petcare" target="1.5" />
+      <module name="ptc-api" target="17" />
+      <module name="ptc-core" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="base-starter-flow-quarkus" options="-parameters" />
+      <module name="ptc-api" options="-parameters" />
+      <module name="ptc-core" options="-parameters" />
+    </option>
+  </component>
+</project>
